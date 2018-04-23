@@ -169,9 +169,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 1, g: 0.6117647, b: 0.03137255, a: 1}
+    m_HighlightedColor: {r: 0.9764706, g: 0.76862746, b: 0.54509807, a: 1}
+    m_PressedColor: {r: 0.9764706, g: 0.76862746, b: 0.54509807, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -188,7 +188,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 311408058}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1112994699}
+        m_MethodName: Capture
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &311408058
@@ -342,9 +353,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 1, g: 0.6117647, b: 0.03137255, a: 1}
+    m_HighlightedColor: {r: 0.9764706, g: 0.76862746, b: 0.54509807, a: 1}
+    m_PressedColor: {r: 0.9764706, g: 0.76862746, b: 0.54509807, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -536,8 +547,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 42af1cac53b76cf489e7e58433ffd042, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -815,6 +826,66 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1051804418}
+--- !u!1 &1112994697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1112994698}
+  - component: {fileID: 1112994699}
+  m_Layer: 0
+  m_Name: MonsterHunt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112994698
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1112994697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 523.8068, y: 288.52777, z: 0.9165787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112994699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1112994697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857ee9a6ab93f0b4b8be250e15518538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 2026654021}
+  img: {fileID: 700688053}
+  monSprites:
+  - {fileID: 21300000, guid: 2e818978cf1808649bd855cd5fa8302c, type: 3}
+  - {fileID: 21300000, guid: 42af1cac53b76cf489e7e58433ffd042, type: 3}
+  - {fileID: 21300000, guid: 1d11d0960d0f91e4aa804507563edfbd, type: 3}
+  - {fileID: 21300000, guid: 8c4c3d3a92d8112498aeaa6098de5916, type: 3}
+  - {fileID: 21300000, guid: 8aa8a970fdce0254a84308cbf489b390, type: 3}
+  - {fileID: 21300000, guid: 6d550256cabf9be47b3e7cfa5cef087a, type: 3}
+  - {fileID: 21300000, guid: 2ebd746ab847f874a83a9158b4d29859, type: 3}
+  - {fileID: 21300000, guid: d4a192c4930e3594aab45a15706c1fbc, type: 3}
+  - {fileID: 21300000, guid: 9f34dad53bb3fd74f89e207e53770b2c, type: 3}
+  - {fileID: 21300000, guid: 3048cec7d56e31d48943a182f18682c0, type: 3}
+  currentMonster: {fileID: 0}
+  monFound: 0
+  monsterLevel: 0
+  rng: 0
+  encounterRate: 0
+  fighting: 0
+  caught: 0
 --- !u!1 &1226423447
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,9 +942,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 1, g: 0.6117647, b: 0.03137255, a: 1}
+    m_HighlightedColor: {r: 0.9764706, g: 0.76862746, b: 0.54509807, a: 1}
+    m_PressedColor: {r: 0.9764706, g: 0.76862746, b: 0.54509807, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -890,7 +961,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1226423450}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1112994699}
+        m_MethodName: RunAway
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1226423450
@@ -1667,7 +1749,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 4
     m_MaxSize: 40
     m_Alignment: 4
@@ -1676,7 +1758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Brown Orc Appeared!
+  m_Text: 
 --- !u!222 &2026654022
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -286,7 +286,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\CreateMonster.cs" />
+    <Compile Include="Assets\Scripts\LevelingLoad.cs" />
+    <Compile Include="Assets\Scripts\Monsters\MonsterFive.cs" />
+    <Compile Include="Assets\Scripts\Monsters\MonsterFour.cs" />
+    <Compile Include="Assets\Scripts\Monsters\MonsterOne.cs" />
+    <Compile Include="Assets\Scripts\Monsters\MonsterSix.cs" />
+    <Compile Include="Assets\Scripts\Monsters\MonsterThree.cs" />
+    <Compile Include="Assets\Scripts\Monsters\MonsterTwo.cs" />
+    <Compile Include="Assets\Scripts\Panel Managment\HidePanels.cs" />
+    <Compile Include="Assets\Scripts\Panel Managment\MonsterOneSelect.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
+    <Compile Include="Assets\Scripts\SetMonsters\SetMonster1.cs" />
+    <Compile Include="Assets\Scripts\SetMonsters\SetMonster2.cs" />
+    <Compile Include="Assets\Scripts\SetMonsters\SetMonster3.cs" />
+    <Compile Include="Assets\Scripts\SetMonsters\SetMonster4.cs" />
+    <Compile Include="Assets\Scripts\SetMonsters\SetMonster5.cs" />
+    <Compile Include="Assets\Scripts\SetMonsters\SetMonster6.cs" />
     <Compile Include="Assets\Scripts\SetResolution.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

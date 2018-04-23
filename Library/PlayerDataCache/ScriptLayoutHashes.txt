@@ -143,5 +143,15 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SetResolution
+9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+a7de18ed57ff352bd4a2bdb78e8b49a7 Assembly-CSharp.dll:.SetMonster1
+fef672da0e912bd0f6c35ec4b74d3268 Assembly-CSharp.dll:.CreateMonster
+a7de18ed57ff352bd4a2bdb78e8b49a7 Assembly-CSharp.dll:.SetMonster2
+a7de18ed57ff352bd4a2bdb78e8b49a7 Assembly-CSharp.dll:.SetMonster3
+a7de18ed57ff352bd4a2bdb78e8b49a7 Assembly-CSharp.dll:.SetMonster4
+a7de18ed57ff352bd4a2bdb78e8b49a7 Assembly-CSharp.dll:.SetMonster5
+a7de18ed57ff352bd4a2bdb78e8b49a7 Assembly-CSharp.dll:.SetMonster6
+3e3275114f777a872d2e232a1a1f7337 Assembly-CSharp.dll:.HidePanels
+3e3275114f777a872d2e232a1a1f7337 Assembly-CSharp.dll:.MonsterOneSelect
+3ef5df67c56c461fa7e0bcd7e97cd731 Assembly-CSharp.dll:.LevelingLoad
